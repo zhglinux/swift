@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftLearning/FirstViewController.swift"
+            timestampString = "535346136.249521"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "prototypePattern()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftLearning/Person.swift"
+            timestampString = "535346283.3039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "deepCopy(data:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftLearning.deepCopy(data: Swift.Array&lt;Swift.AnyObject&gt;) -&gt; Swift.Array&lt;Swift.AnyObject&gt;"
+                  moduleName = "swiftLearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocozhou/Documents/swift_learning/swiftLearning/swiftLearning/Person.swift"
+                  timestampString = "535346283.309071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AnyObject) -&gt; Swift.AnyObject in swiftLearning.deepCopy(data: Swift.Array&lt;Swift.AnyObject&gt;) -&gt; Swift.Array&lt;Swift.AnyObject&gt;"
+                  moduleName = "swiftLearning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocozhou/Documents/swift_learning/swiftLearning/swiftLearning/Person.swift"
+                  timestampString = "535346283.311324"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

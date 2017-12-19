@@ -16,6 +16,7 @@
 		70197EFC1FE8A26A00F97DBD /* swiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EFB1FE8A26A00F97DBD /* swiftLearningTests.swift */; };
 		70197F071FE8A26A00F97DBD /* swiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */; };
 		70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F141FE8A2F200F97DBD /* String_extension.swift */; };
+		70197F181FE8ADF700F97DBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F171FE8ADF700F97DBD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLearningUITests.swift; sourceTree = "<group>"; };
 		70197F081FE8A26A00F97DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70197F141FE8A2F200F97DBD /* String_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_extension.swift; path = extension/String_extension.swift; sourceTree = "<group>"; };
+		70197F171FE8ADF700F97DBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				70197EE61FE8A26A00F97DBD /* FirstViewController.swift */,
 				70197EE81FE8A26A00F97DBD /* SecondViewController.swift */,
 				70197F141FE8A2F200F97DBD /* String_extension.swift */,
+				70197F171FE8ADF700F97DBD /* Person.swift */,
 				70197EEA1FE8A26A00F97DBD /* Main.storyboard */,
 				70197EED1FE8A26A00F97DBD /* Assets.xcassets */,
 				70197EEF1FE8A26A00F97DBD /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70197F181FE8ADF700F97DBD /* Person.swift in Sources */,
 				70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */,
 				70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */,
 				70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */,

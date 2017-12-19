@@ -15,6 +15,7 @@
 		70197EF11FE8A26A00F97DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70197EEF1FE8A26A00F97DBD /* LaunchScreen.storyboard */; };
 		70197EFC1FE8A26A00F97DBD /* swiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EFB1FE8A26A00F97DBD /* swiftLearningTests.swift */; };
 		70197F071FE8A26A00F97DBD /* swiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */; };
+		70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F141FE8A2F200F97DBD /* String_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		70197F021FE8A26A00F97DBD /* swiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLearningUITests.swift; sourceTree = "<group>"; };
 		70197F081FE8A26A00F97DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70197F141FE8A2F200F97DBD /* String_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_extension.swift; path = extension/String_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				70197EE41FE8A26A00F97DBD /* AppDelegate.swift */,
 				70197EE61FE8A26A00F97DBD /* FirstViewController.swift */,
 				70197EE81FE8A26A00F97DBD /* SecondViewController.swift */,
+				70197F141FE8A2F200F97DBD /* String_extension.swift */,
 				70197EEA1FE8A26A00F97DBD /* Main.storyboard */,
 				70197EED1FE8A26A00F97DBD /* Assets.xcassets */,
 				70197EEF1FE8A26A00F97DBD /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */,
 				70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */,
 				70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */,
 				70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */,
@@ -367,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

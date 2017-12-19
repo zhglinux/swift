@@ -24,6 +24,10 @@ class Person : NSObject, NSCopying {
         return Person(name:self.name, country: self.country)
     }
     
+    func deepCopy()->Person
+    {
+        return (self as NSObject).copy() as! Person
+    }
     
     func test()
     {
@@ -32,7 +36,7 @@ class Person : NSObject, NSCopying {
 }
 
 
-func deepCopy(data:[AnyObject]) -> [AnyObject]
+func openDeepCopy(data:[AnyObject]) -> [AnyObject]
 {
     return data.map({ (item) -> AnyObject in
         if (item is NSCopying && item is NSObject)

@@ -30,6 +30,25 @@ class Sum  {
         }
         
     }
+    init(first : Int, second : Int, cacheSize: Int)
+    {
+        self.test = [Int].init(repeating: 3, count: 9)
+        self.firstValue = first
+        self.secondValue = second
+        self.resultCache = [[Int]].init(repeating: [Int].init(repeating: 0, count: cacheSize), count: cacheSize)
+        for i  in 0..<cacheSize {
+            for j in 0..<cacheSize
+            {
+                self.resultCache[i][j] = i+j
+            }
+        }
+    }
+    
+    convenience init(first2: Int,second2 : Int)
+    {
+        self.init(first: first2, second: second2, cacheSize: 10)
+        
+    }
     
     var Result:Int
     {

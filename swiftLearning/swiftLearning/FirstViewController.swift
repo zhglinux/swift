@@ -62,6 +62,11 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        testAppointment_CC_NN()
+        testAppointment_CC()
+        testAppoint()
+        
+        
         print ( x(view: self.view) )
         print(GlobalConst.kScreenWidth)
         print(kScreenWidth)

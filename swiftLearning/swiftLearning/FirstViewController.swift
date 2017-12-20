@@ -48,10 +48,29 @@ class FirstViewController: UIViewController {
         
     }
     
+    //这个是实例方法
+    func result()
+    {
+        var  calc1 = Sum(first: 3, second: 8).Result
+        print("calc1 = \(calc1)")
+        var  calc2 = Sum(first: 0, second: 9).Result
+        print("calc2 = \(calc2)")
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print ( x(view: self.view) )
+        print(GlobalConst.kScreenWidth)
+        print(kScreenWidth)
+        
+        
+        Sum.result()    //类方法
+        self.result()   // 实例方法
+        globalResult()  //全局函数
+        
         
         self.prototypePattern()
         

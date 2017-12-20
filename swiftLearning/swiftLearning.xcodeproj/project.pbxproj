@@ -16,10 +16,11 @@
 		70197EF11FE8A26A00F97DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70197EEF1FE8A26A00F97DBD /* LaunchScreen.storyboard */; };
 		70197EFC1FE8A26A00F97DBD /* swiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EFB1FE8A26A00F97DBD /* swiftLearningTests.swift */; };
 		70197F071FE8A26A00F97DBD /* swiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */; };
-		70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F141FE8A2F200F97DBD /* String_extension.swift */; };
 		70197F181FE8ADF700F97DBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F171FE8ADF700F97DBD /* Person.swift */; };
 		70989D111FEA03DA00D74D4D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D101FEA03D900D74D4D /* Global.swift */; };
 		70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D121FEA167F00D74D4D /* PP_Appointment.swift */; };
+		70989D211FEA367800D74D4D /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D201FEA367800D74D4D /* String_extension.swift */; };
+		70989D231FEA36B400D74D4D /* PP_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D221FEA36B400D74D4D /* PP_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,11 @@
 		70197F021FE8A26A00F97DBD /* swiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLearningUITests.swift; sourceTree = "<group>"; };
 		70197F081FE8A26A00F97DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70197F141FE8A2F200F97DBD /* String_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_extension.swift; path = extension/String_extension.swift; sourceTree = "<group>"; };
 		70197F171FE8ADF700F97DBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		70989D101FEA03D900D74D4D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70989D121FEA167F00D74D4D /* PP_Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PP_Appointment.swift; sourceTree = "<group>"; };
+		70989D201FEA367800D74D4D /* String_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String_extension.swift; sourceTree = "<group>"; };
+		70989D221FEA36B400D74D4D /* PP_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PP_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +114,8 @@
 				70197EE41FE8A26A00F97DBD /* AppDelegate.swift */,
 				70197EE61FE8A26A00F97DBD /* FirstViewController.swift */,
 				70197EE81FE8A26A00F97DBD /* SecondViewController.swift */,
-				70197F141FE8A2F200F97DBD /* String_extension.swift */,
-				70197F171FE8ADF700F97DBD /* Person.swift */,
-				700419E81FE9428800907FEF /* Sum.swift */,
-				70989D121FEA167F00D74D4D /* PP_Appointment.swift */,
+				70989D1F1FEA367800D74D4D /* extension */,
+				70989D181FEA360800D74D4D /* PrototypePattern */,
 				70989D101FEA03D900D74D4D /* Global.swift */,
 				70197EEA1FE8A26A00F97DBD /* Main.storyboard */,
 				70197EED1FE8A26A00F97DBD /* Assets.xcassets */,
@@ -141,6 +141,25 @@
 				70197F081FE8A26A00F97DBD /* Info.plist */,
 			);
 			path = swiftLearningUITests;
+			sourceTree = "<group>";
+		};
+		70989D181FEA360800D74D4D /* PrototypePattern */ = {
+			isa = PBXGroup;
+			children = (
+				70989D221FEA36B400D74D4D /* PP_Test.swift */,
+				700419E81FE9428800907FEF /* Sum.swift */,
+				70989D121FEA167F00D74D4D /* PP_Appointment.swift */,
+				70197F171FE8ADF700F97DBD /* Person.swift */,
+			);
+			path = PrototypePattern;
+			sourceTree = "<group>";
+		};
+		70989D1F1FEA367800D74D4D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				70989D201FEA367800D74D4D /* String_extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				70197F181FE8ADF700F97DBD /* Person.swift in Sources */,
-				70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */,
 				70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */,
 				70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */,
 				70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */,
+				70989D231FEA36B400D74D4D /* PP_Test.swift in Sources */,
+				70989D211FEA367800D74D4D /* String_extension.swift in Sources */,
 				70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */,
 				70989D111FEA03DA00D74D4D /* Global.swift in Sources */,
 				700419E91FE9428800907FEF /* Sum.swift in Sources */,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700419E91FE9428800907FEF /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700419E81FE9428800907FEF /* Sum.swift */; };
 		70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EE41FE8A26A00F97DBD /* AppDelegate.swift */; };
 		70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EE61FE8A26A00F97DBD /* FirstViewController.swift */; };
 		70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197EE81FE8A26A00F97DBD /* SecondViewController.swift */; };
@@ -17,6 +18,7 @@
 		70197F071FE8A26A00F97DBD /* swiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */; };
 		70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F141FE8A2F200F97DBD /* String_extension.swift */; };
 		70197F181FE8ADF700F97DBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F171FE8ADF700F97DBD /* Person.swift */; };
+		70989D111FEA03DA00D74D4D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D101FEA03D900D74D4D /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		700419E81FE9428800907FEF /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		70197EE11FE8A26A00F97DBD /* swiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70197EE41FE8A26A00F97DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70197EE61FE8A26A00F97DBD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		70197F081FE8A26A00F97DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70197F141FE8A2F200F97DBD /* String_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_extension.swift; path = extension/String_extension.swift; sourceTree = "<group>"; };
 		70197F171FE8ADF700F97DBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		70989D101FEA03D900D74D4D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				70197EE81FE8A26A00F97DBD /* SecondViewController.swift */,
 				70197F141FE8A2F200F97DBD /* String_extension.swift */,
 				70197F171FE8ADF700F97DBD /* Person.swift */,
+				700419E81FE9428800907FEF /* Sum.swift */,
+				70989D101FEA03D900D74D4D /* Global.swift */,
 				70197EEA1FE8A26A00F97DBD /* Main.storyboard */,
 				70197EED1FE8A26A00F97DBD /* Assets.xcassets */,
 				70197EEF1FE8A26A00F97DBD /* LaunchScreen.storyboard */,
@@ -273,6 +279,8 @@
 				70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */,
 				70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */,
 				70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */,
+				70989D111FEA03DA00D74D4D /* Global.swift in Sources */,
+				700419E91FE9428800907FEF /* Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

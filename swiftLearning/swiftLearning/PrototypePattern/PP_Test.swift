@@ -13,6 +13,7 @@ class PP_Test //PrototypePattern
     init() {
         
     }
+    
     func PP_Test()
     {
         print("when does this func exec")//not exec when constructing
@@ -67,6 +68,8 @@ class PP_Test //PrototypePattern
     //
     func testEntry()
     {
+        msgHandler()
+        
         
         testAppointment_CC_NN_LN()
         testAppointment_CC_NN_L()

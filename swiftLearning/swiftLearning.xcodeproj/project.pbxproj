@@ -19,6 +19,7 @@
 		70197F151FE8A2F200F97DBD /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F141FE8A2F200F97DBD /* String_extension.swift */; };
 		70197F181FE8ADF700F97DBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F171FE8ADF700F97DBD /* Person.swift */; };
 		70989D111FEA03DA00D74D4D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D101FEA03D900D74D4D /* Global.swift */; };
+		70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D121FEA167F00D74D4D /* PP_Appointment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		70197F141FE8A2F200F97DBD /* String_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_extension.swift; path = extension/String_extension.swift; sourceTree = "<group>"; };
 		70197F171FE8ADF700F97DBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		70989D101FEA03D900D74D4D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		70989D121FEA167F00D74D4D /* PP_Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PP_Appointment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				70197F141FE8A2F200F97DBD /* String_extension.swift */,
 				70197F171FE8ADF700F97DBD /* Person.swift */,
 				700419E81FE9428800907FEF /* Sum.swift */,
+				70989D121FEA167F00D74D4D /* PP_Appointment.swift */,
 				70989D101FEA03D900D74D4D /* Global.swift */,
 				70197EEA1FE8A26A00F97DBD /* Main.storyboard */,
 				70197EED1FE8A26A00F97DBD /* Assets.xcassets */,
@@ -279,6 +282,7 @@
 				70197EE91FE8A26A00F97DBD /* SecondViewController.swift in Sources */,
 				70197EE51FE8A26A00F97DBD /* AppDelegate.swift in Sources */,
 				70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */,
+				70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */,
 				70989D111FEA03DA00D74D4D /* Global.swift in Sources */,
 				700419E91FE9428800907FEF /* Sum.swift in Sources */,
 			);

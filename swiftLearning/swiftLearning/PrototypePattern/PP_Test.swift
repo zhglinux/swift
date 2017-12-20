@@ -68,6 +68,7 @@ class PP_Test //PrototypePattern
     //
     func testEntry()
     {
+        msgHandler_NN()
         msgHandler()
         
         

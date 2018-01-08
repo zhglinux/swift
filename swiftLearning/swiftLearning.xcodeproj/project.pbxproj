@@ -18,6 +18,7 @@
 		70197F071FE8A26A00F97DBD /* swiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F061FE8A26A00F97DBD /* swiftLearningUITests.swift */; };
 		70197F181FE8ADF700F97DBD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70197F171FE8ADF700F97DBD /* Person.swift */; };
 		7054A6741FEA3EC3007010F5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054A6731FEA3EC3007010F5 /* Message.swift */; };
+		7054A6761FEA600B007010F5 /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054A6751FEA600B007010F5 /* NSArray.swift */; };
 		70989D111FEA03DA00D74D4D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D101FEA03D900D74D4D /* Global.swift */; };
 		70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D121FEA167F00D74D4D /* PP_Appointment.swift */; };
 		70989D211FEA367800D74D4D /* String_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70989D201FEA367800D74D4D /* String_extension.swift */; };
@@ -59,6 +60,7 @@
 		70197F081FE8A26A00F97DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70197F171FE8ADF700F97DBD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7054A6731FEA3EC3007010F5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7054A6751FEA600B007010F5 /* NSArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSArray.swift; sourceTree = "<group>"; };
 		70989D101FEA03D900D74D4D /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70989D121FEA167F00D74D4D /* PP_Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PP_Appointment.swift; sourceTree = "<group>"; };
 		70989D201FEA367800D74D4D /* String_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String_extension.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				70989D121FEA167F00D74D4D /* PP_Appointment.swift */,
 				70197F171FE8ADF700F97DBD /* Person.swift */,
 				7054A6731FEA3EC3007010F5 /* Message.swift */,
+				7054A6751FEA600B007010F5 /* NSArray.swift */,
 			);
 			path = PrototypePattern;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				70197EE71FE8A26A00F97DBD /* FirstViewController.swift in Sources */,
 				70989D231FEA36B400D74D4D /* PP_Test.swift in Sources */,
 				70989D211FEA367800D74D4D /* String_extension.swift in Sources */,
+				7054A6761FEA600B007010F5 /* NSArray.swift in Sources */,
 				70989D131FEA167F00D74D4D /* PP_Appointment.swift in Sources */,
 				7054A6741FEA3EC3007010F5 /* Message.swift in Sources */,
 				70989D111FEA03DA00D74D4D /* Global.swift in Sources */,

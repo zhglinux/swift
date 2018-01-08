@@ -68,6 +68,9 @@ class PP_Test //PrototypePattern
     //
     func testEntry()
     {
+        
+        CocoArray.test()
+        
         msgHandler_NN()
         msgHandler()
         

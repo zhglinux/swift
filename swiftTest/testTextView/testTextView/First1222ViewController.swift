@@ -80,7 +80,7 @@ class First1222ViewController: UIViewController {
             if !text.isEmpty && text.count > NumberLimitOfInput{
                 self?.textview.text =  text.subString(to: NumberLimitOfInput)
                 //self?.toast("Scene input character count limit".localize)
-                return true
+                return false
             }
             else{
                 return true

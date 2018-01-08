@@ -76,6 +76,10 @@ class CustomTextView: UITextView,UITextViewDelegate {
         
         if let numberLimit = self.textLimit, !text.isEmpty{
             should = numberLimit(textView.text+text)
+            if should == false { //for First1222ViewController
+                self.textViewDidChange(textView)
+            }
+            
         }
         
         return should

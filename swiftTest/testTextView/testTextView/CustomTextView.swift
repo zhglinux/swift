@@ -33,10 +33,12 @@ class CustomTextView: UITextView,UITextViewDelegate {
 
     }
     
-    //textview size会及时调整
-    override func invalidateIntrinsicContentSize() {
-
-    }
+    //textview size会及时调整, ㊙️
+    //First122ViewController delete comment
+    //First1222ViewController, add comment
+//    override func invalidateIntrinsicContentSize() {
+//
+//    }
     
 //   
 //     var  requiresConstraintBasedLayout :Bool {

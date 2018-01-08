@@ -10,6 +10,7 @@
 		33C83F01FE7CC123D6683556 /* Pods_testTextViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0F87C36C2F22D13028E950 /* Pods_testTextViewTests.framework */; };
 		4BD7D7982385D9F85FA640A9 /* Pods_testTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8D0F8F89791D7577DAD5DC /* Pods_testTextView.framework */; };
 		700C019D1FFDD3F600416EBD /* First1_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700C019C1FFDD3F600416EBD /* First1_2_ViewController.swift */; };
+		70115FBD200353C300609EF3 /* First1222ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70115FBC200353C300609EF3 /* First1222ViewController.swift */; };
 		7015C5E21FFFDCD000E1D608 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015C5E11FFFDCD000E1D608 /* CustomTextView.swift */; };
 		7028BAB71FFCDB3D0064708D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028BAB61FFCDB3D0064708D /* AppDelegate.swift */; };
 		7028BAB91FFCDB3D0064708D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028BAB81FFCDB3D0064708D /* FirstViewController.swift */; };
@@ -48,6 +49,7 @@
 		37CCE7B02F7610FD45CAE70D /* Pods-testTextViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTextViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testTextViewUITests/Pods-testTextViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		69D47F4E0886FB75FF2E77FB /* Pods_testTextViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testTextViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700C019C1FFDD3F600416EBD /* First1_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First1_2_ViewController.swift; sourceTree = "<group>"; };
+		70115FBC200353C300609EF3 /* First1222ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First1222ViewController.swift; sourceTree = "<group>"; };
 		7015C5E11FFFDCD000E1D608 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		7028BAB31FFCDB3D0064708D /* testTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7028BAB61FFCDB3D0064708D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				7028BABA1FFCDB3D0064708D /* SecondViewController.swift */,
 				700C019C1FFDD3F600416EBD /* First1_2_ViewController.swift */,
 				708A7A6220031FBC00B936C6 /* First122ViewController.swift */,
+				70115FBC200353C300609EF3 /* First1222ViewController.swift */,
 				708A7A6020031D0D00B936C6 /* String-extension.swift */,
 				7028BABC1FFCDB3D0064708D /* Main.storyboard */,
 				7028BABF1FFCDB3D0064708D /* Assets.xcassets */,
@@ -479,6 +482,7 @@
 				7028BABB1FFCDB3D0064708D /* SecondViewController.swift in Sources */,
 				7028BAB71FFCDB3D0064708D /* AppDelegate.swift in Sources */,
 				7028BAB91FFCDB3D0064708D /* FirstViewController.swift in Sources */,
+				70115FBD200353C300609EF3 /* First1222ViewController.swift in Sources */,
 				708A7A6320031FBC00B936C6 /* First122ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

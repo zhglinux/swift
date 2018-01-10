@@ -56,8 +56,12 @@ class CustomTextView: UITextView,UITextViewDelegate {
     
     func textViewDidChange(_ textView: UITextView) {
         
-        self.textChanged?(textView.text ?? "")
+//        if textView.text.count > NumberLimitOfInput{
+//            textView.text =  textView.text.subString(to: NumberLimitOfInput)
+//        }
         
+        
+        self.textChanged?(textView.text ?? "")
         self.invalidateIntrinsicContentSize()
         
         //print(self.intrinsicContentSize)
@@ -70,21 +74,50 @@ class CustomTextView: UITextView,UITextViewDelegate {
                   replacementText text: String) -> Bool {
         
         print(range)
-        print("deleting ..=\(text)")
+        print("replacementText ..=\(text)")
         
         var should = true
+        var vText = textView.text
+        
+        let index = vText?.index((vText?.startIndex)!, offsetBy: range.location)
+        let indexMid = vText?.index((vText?.startIndex)!, offsetBy: range.location+range.length)
+        
+//        let range2 = vText?.startIndex..<index
+//        let range3 = index..<vText?.endIndex
+        
+        let textBefore = vText![vText?.startIndex ..< index]
+        print(textBefore)
+        
+        let textEnd = vText![indexMid ..< vText?.endIndex]
+        print(textEnd)
+        
         
         if let numberLimit = self.textLimit, !text.isEmpty{
-            should = numberLimit(textView.text+text)
-            if should == false { //for First1222ViewController
-                self.textViewDidChange(textView)
-            }
             
+//            if (textBefore+text+textEnd).count > NumberLimitOfInput{
+//                textView.text =  (textBefore+text+textEnd).subString(to: NumberLimitOfInput)
+//                textView.selectedRange = NSMakeRange(textView.text.count, 0)
+//            }
+//            return false
+
+            should = numberLimit(textBefore + text + textEnd )
+            if should == false { //for First1222ViewController
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.2, execute: {
+                    self.textViewDidChange(textView)
+                    self.adjustPos()
+                })
+               
+            }
         }
         
         return should
         
     }
+    func adjustPos (){
+        self.selectedRange = NSMakeRange(self.text.count, 0)
+    }
+    
+    
     
     func textViewShouldBeginEditing(_ textView: UITextView) -> Bool {
             return true

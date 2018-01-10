@@ -8,7 +8,7 @@
 
 import UIKit
 
-let NumberLimitOfInput : Int = 500
+let NumberLimitOfInput : Int = 200
 
 
 class First1_2_ViewController: UIViewController {

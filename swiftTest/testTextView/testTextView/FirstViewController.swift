@@ -68,6 +68,7 @@ class FirstViewController: UIViewController {
 
     @IBAction func clickBtn1(_ sender: Any) {
         
+        
     }
     
     @IBAction func clickBtn25(_ sender: Any) {

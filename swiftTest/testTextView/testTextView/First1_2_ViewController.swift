@@ -65,10 +65,13 @@ class First1_2_ViewController: UIViewController {
         print(textView12.contentMode)
         print(textView12.intrinsicContentSize)//
         
-//        textView12.contentInset = UIEdgeInsets(top: 20.0, left: 10.0, bottom: 8.0, right: 10.0)
+        textView12.contentInset = UIEdgeInsets(top: 40.0, left: 10.0, bottom: 8.0, right: 50.0)
         print(textView12.contentInset)//
         print(textView12.contentSize)//
         print(textView12.textInputView.frame)//
+        
+//        textView12.textContainerInset = UIEdgeInsets(top: 38.0, left: 0.0, bottom: 8.0, right: 0.0)
+        print(textView12.textContainerInset)
         
         print("------------------------===========------------------")
     }
@@ -117,10 +120,11 @@ class First1_2_ViewController: UIViewController {
         
         
     }
-    
+    var  tmp : CustomTextView!
     func creatMyCustomTextView (){
         
         var textview = CustomTextView()
+        tmp = textview
         self.view.addSubview(textview)
         textview.frame = CGRect(x: 16, y: 400, width: 343, height: 60)
         textview.text = UserDefaults.standard.value(forKey: "text5") as! String
@@ -174,7 +178,11 @@ class First1_2_ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func click(_ sender: Any) {
+        
+        tmp.text = "asdfads;f "
+    }
+    
     /*
     // MARK: - Navigation
 

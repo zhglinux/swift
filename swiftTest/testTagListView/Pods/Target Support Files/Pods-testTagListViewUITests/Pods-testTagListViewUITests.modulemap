@@ -1,0 +1,6 @@
+framework module Pods_testTagListViewUITests {
+  umbrella header "Pods-testTagListViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

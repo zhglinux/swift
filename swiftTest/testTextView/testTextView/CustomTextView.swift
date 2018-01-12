@@ -106,7 +106,6 @@ class CustomTextView: UITextView,UITextViewDelegate {
                     self.textViewDidChange(textView)
                     self.adjustPos()
                 })
-               
             }
         }
         
